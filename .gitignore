@@ -1,0 +1,15 @@
+# Data files (assignment requirement: do NOT commit raw or heavy data)
+data/
+*.csv
+*.parquet
+*.zip
+
+# Python & Notebook caches
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.pytest_cache/
+.env
+venv/
+.venv/
