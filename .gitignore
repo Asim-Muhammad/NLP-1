@@ -1,7 +1,17 @@
-# Data files (assignment requirement: do NOT commit raw or heavy data)
+# Data files (do not commit raw or processed datasets)
 data/
 *.csv
 *.parquet
+*.zip
+
+# Heavy embedding binaries (exceed GitHub 100MB limit; regenerated via train_models.py)
+models/*.model*
+models/*.npy
+
+# Word documents and reports
+*.docx
+
+# Zip archives
 *.zip
 
 # Python & Notebook caches
